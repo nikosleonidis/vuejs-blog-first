@@ -1,0 +1,81 @@
+html, body, ul, li, a {
+  font-family: -apple-system, "Helvetica Neue", "Segoe UI", "Avenir Next";
+}
+a, button {
+  color: azure;
+  text-decoration: none;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  min-height: 12rem !important;
+  max-height: 18rem;
+}
+.navbar {
+  box-shadow: 0px 0.45rem 0.92rem lightslategrey;
+}
+.bg-nav {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: #3E27BF;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-collapse form .mr-sm-2 {
+  width: 15rem;
+  max-width: 20rem;
+}
+.navbar-collapse .form-control {
+  border: none;
+}
+.me-auto:nth-child(2) { /*:not(.me-auto:nth-child(2))*/
+margin-right: 0px !important;
+}
+.container {
+  padding-top: 4rem;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 2;
+  position: fixed;
+  overflow: hidden;
+}
+.modal-dialog.modal-dialog-centered {
+  width: 60%;
+  max-width: 600px;
+}
+.card {
+  margin: 2rem auto;
+}
+.card .card-img-top:hover {
+  cursor: pointer;
+}
+.card .card-body .card-title {
+  text-align: left;
+}
+.card .card-body .card-text {
+  margin: 0.75rem 0;
+  text-align: left;
+}
+.card .card-body .text-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-body .text-info .this-page {
+  align-self: flex-end;
+  color: rgba(100, 100, 100 , 0.7);
+}
+.card .card-body .text-info .this-page p {
+  margin: 0;
+}
+.card .card-body .text-info .btn-group .btn:not(.btn-danger) {
+  margin: 0 10px;
+}
+.btn {
+    color: azure;
+}
